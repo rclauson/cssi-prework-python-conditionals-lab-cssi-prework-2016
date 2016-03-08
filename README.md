@@ -1,9 +1,25 @@
 # Conditionals Lab
 In this lab you will write a program that gets your user ready for their day at the office.
+
 The functions are already written for you since we haven't quite covered Python functions yet. The general concepts should be familiar from JavaScript. Note that the raw_input() function returns whatever the user types and has a data type of string.
 
+
 ##1. Waking Up
-The wake_up() function is written for you. You need to add a conditional statement that checks the day of the week. If it's Saturday or Sunday, tell the user "Go back to bed", otherwise, tell them to "Stop hitting snooze".
+The wake_up() function is written for you. You need to add a conditional statement that checks the day of the week. If it's Saturday or Sunday, tell the user "Go back to bed", otherwise, tell them to "Stop hitting snooze". You should use the Python string methods .upper() or .lower() to make sure that both `Saturday` and `saturday` get handled appropriately.
+
+For example, if I were making a function called make_breakfast, I would want to use one of those methods to modify the user input string so that the strings on both side of the operator `==` will always be equal, regardless of how the user chooses to capitalize their answer.
+
+```python
+def make_breakfast(type_of_food):
+    if (type_of_food.lower() == "eggs" ): #or type_of_food.upper()=="EGGS"
+        instructions = "Get our pan"
+    else:
+        instructions = "Get out bowl"
+    return message
+
+bfast_request = raw_input("Are we doing eggs, cereal or yogurt?")
+print make_breakfast(bfast_request)    
+```
 
 ##2. The Commute
 Help the user navigate their commute. They can choose between biking, public transportation or driving. The function has two parameters, weather and mins_until_work. In this magical climate, the weather is either rainy or sunny. The framework of the commute() function has already been written for you.

@@ -49,7 +49,7 @@ day_of_week = raw_input("What day is it?")
 print wake_up(day_of_week)
 
 #Calls commute() with two arguments
-weather = raw_input("What is the weather outside? (Rainy, Sunny or Windy?)")
+weather = raw_input("What is the weather outside? (Rainy or Sunny)")
 mins = raw_input("How many minutes do you have before you're late?")
 print commute(weather,float(mins))
 
