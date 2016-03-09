@@ -3,6 +3,8 @@ In this lab you will write a program that gets your user ready for their day at 
 
 The functions are already written for you since we haven't quite covered Python functions yet. The general concepts should be familiar from JavaScript. Note that the raw_input() function returns whatever the user types and has a data type of string.
 
+To run the tests at any point as you work through your lab, make sure you are in the lab directory and then run the command `python morning_test.py`. If any test fails, you will understand what the test was checking.
+
 
 ##1. Waking Up
 The wake_up() function is written for you. You need to add a conditional statement that checks the day of the week. If it's Saturday or Sunday, tell the user "Go back to bed", otherwise, tell them to "Stop hitting snooze". You should use the Python string methods .upper() or .lower() to make sure that both `Saturday` and `saturday` get handled appropriately.
