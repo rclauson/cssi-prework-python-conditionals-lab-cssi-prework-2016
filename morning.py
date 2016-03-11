@@ -8,7 +8,7 @@ def isfloat(value):
 
 #1. Waking Up
 def wake_up(day_of_week):
-    #write your conditional statement here
+    #write your conditional statement here.
 
     return message
 
