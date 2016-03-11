@@ -15,3 +15,4 @@ def commute(climate, mins_until_work):
 def coffee(number_of_emails):
     #write your conditional statement here
     return "replace this line with all of your code!"
+
