@@ -3,7 +3,7 @@ In this lab you will write a program that gets your user ready for their day at 
 
 The functions are already written for you since we haven't quite covered Python functions yet. The general concepts should be familiar from JavaScript. Note that the raw_input() function returns whatever the user types and has a data type of string.
 
-To run the tests at any point as you work through your lab, make sure you are in the lab directory and then run the command `python morning_test.py`. If any test fails, you will understand what the test was checking.
+To run the tests at any point as you work through your lab, make sure you are in the lab directory and then run the command `python morning_test.py`. If any test fails, you will understand what the test was checking. Notice that we don't call the functions in `morning.py` - instead, we import the functions into `morning_test.py` and call them there in our tests. Make sure to look at `morning_test.py` before you get started!
 
 
 ##1. Waking Up
