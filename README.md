@@ -7,9 +7,9 @@ To run the tests at any point as you work through your lab, make sure you are in
 
 
 ##1. Waking Up
-The first - and often hardest- part of the workday is waking up. Your first function, called wake_up() should accepts one argument (`day_of_week`). Based on the day of the week, the function should either tell the user to go back to bed or to get up.  To do this, add a conditional statement that checks contents of the `day_of_week` argument. If it's Saturday or Sunday, tell the user to "Go back to bed", otherwise, tell them to "Stop hitting snooze". You should use the Python string methods .upper() or .lower() to make sure that both `Saturday` and `saturday` get handled appropriately.
+The first - and often hardest- part of the workday is waking up. Your first function, called wake_up() should accept one argument (`day_of_week`). Based on the day of the week, the function should either tell the user to go back to bed or to get up.  To do this, add a conditional statement that checks contents of the `day_of_week` argument. If it's Saturday or Sunday, tell the user to "Go back to bed". Otherwise, tell them to "Stop hitting snooze". You should use the Python string methods .upper() or .lower() to make sure that both `Saturday` and `saturday` get handled appropriately.
 
-For example, if I were making a function called make_breakfast, I would want to use one of those methods to modify the user input string so that the strings on both side of the operator `==` will always be equal, regardless of how the user chooses to capitalize their answer.
+For example, if we were making a function called make_breakfast, we would want to use one of those methods to modify the user input string so that the strings on both side of the operator `==` will always be equal, regardless of how the user chooses to capitalize their answer.
 
 ```python
 def make_breakfast(type_of_food):
